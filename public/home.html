@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../boots/style.css">
+    <link rel="stylesheet" href="app.css">
+    <title></title>
+</head>
+<body>
+    <header id='header'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home">MedicoApp</a>
+            <button id='cerrarSesion' class="btn btn-outline-info" type="submit">Cerrar sesion</button>
+        </nav>
+    </header>
+    <div class='completado' id='mensajes' data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom" hidden='false'>
+        <span id='error'>asdas</span>
+    </div>
+    <div id='div_container' class='div_container'>
+    
+        <form id='form'>
+            <div class="form-group">
+              <!-- <label for="correo">Registrar un nuevo paciente</label> -->
+              <span><strong>Registrar nuevo paciente</strong></span>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                  <div class="col">
+                    <label for="correo">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name='nombre' placeholder="Nombre completo">
+                  </div>
+                  <div class="col">
+                    <label for="correo">DNI</label>
+                    <input type="text" class="form-control" id="dni" name='dni' placeholder="Ingrese su numero de cedula">
+                  </div>
+                </div>
+            </div> 
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                      <label for="Direccion">Direccion</label>
+                      <input type="text" class="form-control" id="direccion" name='direccion' placeholder="Direccion de residencia">
+                    </div>
+                    <div class="col">
+                        <label for="Direccion">Correo</label>
+                        <input type="email" class="form-control" id="correo" name='correo' placeholder="correo@example.com">
+                    </div>
+                  </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="Direccion">Fecha de nacimiento</label><br>
+                        <input type="date" class="form-control" name="fechaNacimiento" id="fechaNacimiento">
+                    </div>
+                    <div class="col">
+                        <label for="Direccion">Telefono</label>
+                        <input type="text" class="form-control" id="telefono" name='telefono' placeholder="Numero de telefono ">
+                    </div>
+                  </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="exampleFormControlSelect1">Sexo</label>
+                        <select class="form-control" name='genero' id="exampleFormControlSelect1">
+                            <option>Masculino</option>
+                            <option>Femenino</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="Direccion">Codigo postal</label>
+                        <input type="text" class="form-control" id="codigoPostal" name='codigoPostal' placeholder="Ingrese codigo postal">
+                    </div>
+                  </div>
+            </div>
+            <div class="form-group">
+                <button id='registrarPaciente' type="submit" class="btn btn-outline-success">Registrar paciente</button>
+            </div>
+          </form>
+    </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+    document.title = `MedicoApp - Home`
+</script>
+
+
+
+
+   <script src='js/validar_tk.js'></script>
+   <script src="js/close_sesion.js"></script>
+   <script src='js/validar_tk.js'></script>
+   <script src='js/listaPacientes.js'></script>
+   <script src="js/registrarPaciente.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.app{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    margin-top: 10%;
+}
+.error{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    margin-top: 10%;
+}
+.div_container{
+    padding:2%;
+    border:1px solid #ced4da;
+    border-radius:5px;
+    margin-top: 1%;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;     
+}
+.completado{
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    color:#FF0F0F;
+    background: #FF7E7E;
+    border:1px solid #FF0F0F;
+    font-size:17px;
+    padding:1%;
+    margin-left: 70%;
+    margin-top:3%;
+    -webkit-box-shadow: 10px 10px 36px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 36px -11px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 36px -11px rgba(0,0,0,0.75);
+} 
+
+/* .mensajes{
+    position:absolute;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #ced4da;
+
+} */

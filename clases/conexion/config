@@ -1,0 +1,9 @@
+{
+    "conexion":{
+        "server":"213.190.6.86",
+        "user":"u751442928_api",
+        "password":"KPO7Dn]6c",
+        "database":"u751442928_api",
+        "port":"3306"
+    }
+}
